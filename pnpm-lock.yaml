@@ -6,28 +6,28 @@ settings:
 
 dependencies:
   '@angular/animations':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/core@17.3.1)
   '@angular/common':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/core@17.3.1)(rxjs@7.8.1)
   '@angular/compiler':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/core@17.3.1)
   '@angular/core':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(rxjs@7.8.1)(zone.js@0.14.4)
   '@angular/forms':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/common@17.3.1)(@angular/core@17.3.1)(@angular/platform-browser@17.3.1)(rxjs@7.8.1)
   '@angular/platform-browser':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/animations@17.3.1)(@angular/common@17.3.1)(@angular/core@17.3.1)
   '@angular/platform-browser-dynamic':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/common@17.3.1)(@angular/compiler@17.3.1)(@angular/core@17.3.1)(@angular/platform-browser@17.3.1)
   '@angular/router':
-    specifier: ^17.3.0
+    specifier: ^17.3.1
     version: 17.3.1(@angular/common@17.3.1)(@angular/core@17.3.1)(@angular/platform-browser@17.3.1)(rxjs@7.8.1)
   rxjs:
     specifier: ~7.8.0

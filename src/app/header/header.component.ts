@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
-import { CouterComponent } from "../couter/couter.component";
+import { CouterComponent } from '../couter/couter.component';
 
 @Component({
-    selector: 'app-header',
-    standalone: true,
-    templateUrl: './header.component.html',
-    styleUrl: './header.component.scss',
-    imports: [CouterComponent]
+  selector: 'app-header',
+  standalone: true,
+  templateUrl: './header.component.html',
+  styleUrl: './header.component.scss',
+  imports: [CouterComponent],
 })
 export class HeaderComponent {
-
+  counterLogging($event: number) {
+    console.log($event);
+    
+  }
 }
