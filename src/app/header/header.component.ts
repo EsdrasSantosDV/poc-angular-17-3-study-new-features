@@ -9,8 +9,10 @@ import { CouterComponent } from '../couter/couter.component';
   imports: [CouterComponent],
 })
 export class HeaderComponent {
-  counterLogging($event: number) {
+  counterLogginTo($event: Event) {
     console.log($event);
-    
+  }
+  counterLogging($event: string) {
+    console.log($event);
   }
 }
